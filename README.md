@@ -62,11 +62,13 @@ Changes to be committed:
         new file:   README.md
 ```
 
+![git lifecycle](lifecycle.png)
+
 `$ git commit -m "<message>"` create a commit with all the files added (staged)  
 or just use `$ git commit` to open a text editor and write your message in there.
 
 ```shell
-$ git status 
+$ git status
 On branch master
 nothing to commit, working tree clean
 ```
@@ -74,4 +76,3 @@ nothing to commit, working tree clean
 to push the changes to a remote repository.
 
 `$ git push origin master`
-
